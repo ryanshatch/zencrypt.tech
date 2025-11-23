@@ -1,0 +1,1232 @@
+<!--
+/***************************************************************************************
+Title: Zencrypt Landing Page    |*******************************************************
+Developed by: imaCŁ◎NΞ.x       |*******************************************************
+Date: Sept 18th 2023            |*******************************************************
+Last Updated: Sept. 18 2025     |*******************************************************
+Version: 33.3                   |*******************************************************
+***************************************************************************************/
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Zencrypt - Secure Encryption Platform</title>
+    <style>
+      .button-group {
+      display: flex; /* Enables Flexbox */
+      justify-content: justify; /* Spaces out the buttons */
+      /* If you want the buttons to have some space between them but not at the extremes of the div, you can add padding to the button-group and use 'justify-content: space-around' instead */
+      }
+
+      /* Additional styles for the buttons; padding, font-size, etc. */
+      .rn-btn {
+        margin-right: 10px; /* Adds space between the buttons */
+      }
+      
+      /* If you don't want the last button to have margin to the right */
+      .rn-btn:last-child {
+        margin-right: 0;
+      }
+    </style>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> -->
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="Zencrypt - Your secure encryption platform. Hash, encrypt, and decrypt with military-grade security. Wallet authentication powered by Solana." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/etc/favicon.ico" />
+    <!-- CSS 
+    ============================================ -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/slick.css" />
+    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/vendor/aos.css" />
+    <link rel="stylesheet" href="assets/css/plugins/feature.css" />
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/mint.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
+    <!-- Start Header -->
+    <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
+      <div class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
+        <!-- Start Header Left -->
+        <div class="col-lg-2 col-6">
+          <div class="header-left">
+            <div class="logo">
+              <a href="https://zencrypt.app">
+                <!-- <img style="width: 60px" src="assets/images/etc/favicon.png" alt="logo" /> -->
+                <img class="logo-img" src="assets/images/etc/favicon.png" alt="logo" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- End Header Left -->
+        <!-- Start Header Center -->
+        <div class="col-lg-10 col-6">
+          <div class="header-center">
+            <nav id="sideNav" class="mainmenu-nav navbar-example2 d-none d-xl-block onepaav">
+              <!-- Start Mainmanu Nav -->
+              <ul class="primary-menu nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#resume">Security</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonial">Reviews</a>
+                </li>
+              </ul>
+              <!-- End Mainmanu Nav -->
+            </nav>
+            <!-- Start Header Right  -->
+            <div class="header-right">
+              <a class="rn-btn" target="_blank" rel="noopener noreferrer" href="https://zencrypt.app/connect-wallet">
+                <span>Launch dApp</span>
+              <a class="rn-btn mint-btn" target="_blank" rel="noopener noreferrer" href="https://mint.zencrypt.tech">
+                <span>Mint $ZC</span>
+              </a>
+              </a>
+              <div class="hamberger-menu d-block d-xl-none">
+                <i id="menuBtn" class="feather-menu humberger-menu"></i>
+              </div>
+              <div class="close-menu d-block">
+                <span class="closeTrigger">
+                  <i data-feather="x"></i>
+                </span>
+              </div>
+            </div>
+            <!-- End Header Right  -->
+          </div>
+        </div>
+        <!-- End Header Center -->
+      </div>
+    </header>
+    <!-- End Header Area -->
+    <!-- Start Popup Mobile Menu  -->
+    <div class="popup-mobile-menu">
+      <div class="inner">
+        <div class="menu-top">
+          <div class="menu-header">
+            <a class="logo" href="index.html">
+              <img width="100px" style="margin-left: 0px" src="assets/images/etc/favicon.ico" alt="Personal Portfolio" />
+            </a>
+            <div class="close-button">
+              <button class="close-menu-activation close" title="Close Menu">
+                <i data-feather="x"></i>
+              </button>
+            </div>
+          </div>
+          <p class="discription">imaCŁ◎NΞ</p>
+        </div>
+        <div class="content">
+          <ul class="primary-menu nav nav-pills onepagenav">
+            <li class="nav-item current">
+              <a class="nav-link smoth-animation active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smoth-animation" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smoth-animation" href="#resume">Security</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smoth-animation" href="#testimonial">Reviews</a>
+            </li>
+          </ul>
+          <!-- social share area -->
+          <div class="social-share-style-1 mt--40">
+            <span class="title">Reach out to me</span>
+            <ul class="social-share d-flex liststyle">
+              <li class="facebook">
+                <a href="https://www.facebook.com/zenk.silva" title="Visit my Facebook profile">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="twitter">
+                <a target="blank5" href="https://twitter.com/imaclonex">
+                  <i data-feather="twitter"></i>
+                </a>
+              </li>
+              <li class="mail">
+                <a target="blank5" href="mailto:imaclone.sol@proton.me">
+                  <i data-feather="mail"></i>
+                </a>
+              <li class="phone">
+                <a target="blank5" href="tel:+1 (404) 941-6069">
+                  <i data-feather="phone"></i>
+                </a>
+              </li>
+              <li class="tradingview">
+                <a target="blank5" href="https://tradingview.com/u/imaclone_eth" title="TradingView">
+                  <i data-feather="trending-up"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- end -->
+        </div>
+      </div>
+    </div>
+    <!-- End Popup Mobile Menu  -->
+    <main class="main-page-wrapper">
+      <!-- Start Slider Area -->
+      <div id="home" class="rn-slider-area">
+        <div class="slide slider-style-1">
+          <div class="container">
+            <div class="row row--30 align-items-center">
+              <div class="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
+                <div class="content">
+                  <div class="inner">
+                    <span class="subtitle">Keeping it Secure. Keeping it Simple.</span>
+                    <h1 class="title"> Welcome to <span>Zencrypt</span>
+                      <br />
+                      <span class="header-caption" id="page-top">
+                        <!-- type headline start-->
+                        <span class="cd-headline clip is-full-width">
+                          <!-- ROTATING TEXT -->
+                          <span class="cd-words-wrapper">
+                            <b class="is-visible">Your Wallet, Your Keys.</b>
+                            <b class="is-hidden">Military-Grade Encryption.</b>
+                            <b class="is-hidden">Web3-Powered Security.</b>
+                            <b class="is-hidden">Solana Wallet Authentication.</b>
+                            <b class="is-hidden">SHA256 Hashing.</b>
+                            <b class="is-hidden">AES & Fernet Encryption.</b>
+                            <b class="is-hidden">PGP Key Management.</b>
+                            <b class="is-hidden">Secure File Operations.</b>
+                            <b class="is-hidden">Privacy First Platform.</b>
+                            <b class="is-hidden">Zero-Knowledge Architecture.</b>
+                            <b class="is-hidden">Built for Everyone.</b>
+                          </span>
+                        </span>
+                        <!-- type headline end -->
+                      </span>
+                    </h1>
+                    <div>
+                      <p class="description">
+                        <strong>Zencrypt</strong> is a <strong>Web3 encryption platform</strong> that uses <strong>Solana wallet authentication</strong> with enterprise-level security. Instead of learning code or GNU CLI tools, just connect your <strong>Phantom</strong> or <strong>Solflare</strong> wallet, encrypt files with <strong>AES-256</strong>, hash data with <strong>SHA-256</strong>, and manage <strong>PGP keys</strong> in one place.<br>
+                        <blockquote>Using Python and Flask, the result is a layer of real <strong>E2EE</strong> verified on chain.<br>
+                        No passwords. No nonsense. Just proof, keys, and silence.</blockquote>
+                      </p>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
+                      <div class="social-share-inner-left">
+                        <span class="title">Connect With Us</span>
+                        <ul class="social-share d-flex liststyle">
+                          <li class="mail">
+                            <a target="blank5" href="mailto:imaclone.sol@proton.me">
+                              <i data-feather="mail"></i>
+                            </a>
+                          </li>
+                          <li class="twitter"><a target="blank5" href="https://twitter.com/imaclonex">
+                              <i data-feather="twitter"></i>
+                            </a>
+                          </li>
+                          <li class="github">
+                            <a target="blank5" href="https://github.com/imaclone-sol/" title="GitHub"><i data-feather="github"></i></a>
+                          </li>
+                          <li class="tradingview">
+                            <a target="blank5" href="https://tradingview.com/u/imaclone_eth" title="TradingView">
+                              <i data-feather="trending-up"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12 mt_mobile--30">
+                      <div class="skill-share-inner">
+                        <span class="title">Powered By</span>
+                        <ul class="skill-share d-flex liststyle">
+                          </li>
+                          <li>
+                            <img src="assets/images/etc/python.png" alt="Python" />
+                          </li>
+                          <li>
+                            <img src="assets/images/etc/logo-mysql-170x115.png" alt="SQLite" />
+                          </li>
+                          <li title="Solana">
+                            <svg width="40" height="40" viewBox="0 0 397.7 311.7" xmlns="http://www.w3.org/2000/svg"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="360.88" x2="141.21" y1="351.46" y2="-69.29"><stop offset="0" stop-color="#00ffa3"/><stop offset="1" stop-color="#dc1fff"/></linearGradient><linearGradient id="b" gradientUnits="userSpaceOnUse" x1="264.83" x2="45.16" y1="401.6" y2="-19.15"><stop offset="0" stop-color="#00ffa3"/><stop offset="1" stop-color="#dc1fff"/></linearGradient><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="312.86" x2="93.18" y1="376.53" y2="-44.22"><stop offset="0" stop-color="#00ffa3"/><stop offset="1" stop-color="#dc1fff"/></linearGradient><path d="m64.6 237.9c2.4-2.4 5.7-3.8 9.2-3.8h317.4c5.8 0 8.7 7 4.6 11.1l-62.7 62.7c-2.4 2.4-5.7 3.8-9.2 3.8h-317.4c-5.8 0-8.7-7-4.6-11.1z" fill="url(#a)"/><path d="m64.6 3.8c2.4-2.4 5.7-3.8 9.2-3.8h317.4c5.8 0 8.7 7 4.6 11.1l-62.7 62.7c-2.4 2.4-5.7 3.8-9.2 3.8h-317.4c-5.8 0-8.7-7-4.6-11.1z" fill="url(#b)"/><path d="m333.1 120.1c-2.4-2.4-5.7-3.8-9.2-3.8h-317.4c-5.8 0-8.7 7-4.6 11.1l62.7 62.7c2.4 2.4 5.7 3.8 9.2 3.8h317.4c5.8 0 8.7-7 4.6-11.1z" fill="url(#c)"/></svg>
+                          </li>
+                          <li>
+                            <i data-feather="lock" style="width: 40px; height: 40px; color: #00ffa3;"></i>
+                          </li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="order-1 order-lg-2 col-lg-5">
+                <div class="thumbnail">
+                  <div class="inner">
+                    <img src="assets/images/etc/keychainkid01.png" alt="NFT Collection" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Slider Area -->
+      <!-- Start Mint Section -->
+      <div class="rn-mint-area rn-section-gap section-separator" id="mint" style="background: linear-gradient(135deg, rgba(20, 241, 149, 0.1) 0%, rgba(153, 69, 255, 0.1) 100%);">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true">
+                <span class="subtitle">Exclusive Access</span>
+                <h2 class="title">Mint Your $ZC Token</h2>
+                <p class="description mt--20">
+                  Access Zencrypt dApp premium features by holding the $ZC NFT. Mint now to unlock wallet authentication, token-gated encryption tools, and priority access to all future releases.
+                </p>
+                <div class="button-group mt--40 text-center">
+                  <a class="rn-btn mint-btn mint-large" target="_blank" rel="noopener noreferrer" href="https://mint.zencrypt.tech">
+                    <span>Mint $ZC Token</span>
+                    <i data-feather="arrow-right"></i>
+                  </a>
+                </div>
+                <br>
+                <p class="mt--20 text-center" style="font-size: 14px; opacity: 0.8;">
+                  <i data-feather="info" class="icon-info"></i>
+                  $ZC NFT holders unlock premium features including full access control to dApps, analytics server, and trading tools.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Mint Section -->
+      <!-- Start Service Area -->
+      <div class="rn-service-area rn-section-gap section-separator" id="features">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title text-left" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true">
+                <span class="subtitle">Features</span>
+                <h2 class="title">What Zencrypt Offers</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row row--25 mt_md--10 mt_sm--10">
+            <!-- Start Single Service -->
+            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+              <div class="rn-service">
+                <div class="inner">
+                  <div class="icon">
+                    <i data-feather="shield"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="title">
+                      <a href="#">Solana Wallet Authentication</a>
+                    </h4>
+                    <p class="description"> Connect securely with Phantom, Solflare, or Ledger wallets. Your wallet address becomes your identity—no passwords needed. Web3-powered authentication with Ed25519 cryptographic signatures.</p>
+                    <a class="read-more-button" href="#">
+                      <i class="feather-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <a class="over-link" href="#contacts"></a>
+              </div>
+            </div>
+            <!-- End SIngle Service -->
+            <!-- Start Single Service -->
+            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+              <div class="rn-service">
+                <div class="inner">
+                  <div class="icon">
+                    <i data-feather="hash"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="title">
+                      <a href="#">SHA256 Hashing</a>
+                    </h4>
+                    <p class="description"> Generate cryptographic hashes with SHA256 algorithm. Optional salt values for enhanced security. Perfect for password verification and data integrity checks.
+                    </p>
+                    <a class="read-more-button" href="#">
+                      <i class="feather-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <a class="over-link" href="#contacts"></a>
+              </div>
+            </div>
+            <!-- End SIngle Service -->
+            <!-- Start Single Service -->
+            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+              <div class="rn-service">
+                <div class="inner">
+                  <div class="icon">
+                    <i data-feather="lock"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="title">
+                      <a href="#">AES & Fernet Encryption</a>
+                    </h4>
+                    <p class="description"> Symmetric encryption for text and files using industry-standard Fernet and AES algorithms. Secure your sensitive data with military-grade encryption that's easy to use. </p>
+                    <a class="read-more-button" href="#">
+                      <i class="feather-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <a class="over-link" href="#contacts"></a>
+              </div>
+            </div>
+            <!-- End SIngle Service -->
+            <!-- Start Single Service -->
+            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+              <div class="rn-service">
+                <div class="inner">
+                  <div class="icon">
+                    <i data-feather="key"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="title">
+                      <a href="#">PGP Key Management</a>
+                    </h4>
+                    <p class="description"> Generate, import, and export PGP keypairs. Asymmetric encryption for secure communication. Full PGP implementation with key rotation and management capabilities.</p>
+                    <a class="read-more-button" href="#">
+                      <i class="feather-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <a class="over-link" href="#contacts"></a>
+              </div>
+            </div>
+            <!-- End SIngle Service -->
+            <!-- Start Single Service -->
+            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+              <div class="rn-service">
+                <div class="inner">
+                  <div class="icon">
+                    <i data-feather="file"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="title">
+                      <a href="#">Secure File Operations</a>
+                    </h4>
+                    <p class="description"> Encrypt and decrypt files with password protection. Process large files efficiently with chunked processing. Download encrypted files securely to your device. </p>
+                    <a class="read-more-button" href="#">
+                      <i class="feather-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <a class="over-link" href="#contacts"></a>
+              </div>
+            </div>
+            <!-- End Single Service -->
+            <!-- Start Single Service -->
+            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+              <div class="rn-service">
+                <div class="inner">
+                  <div class="icon">
+                    <i data-feather="user-check"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="title">
+                      <a href="#">Secure Session Management</a>
+                    </h4>
+                    <p class="description"> JWT-based authentication with 1-hour session tokens. HttpOnly cookies for enhanced security. Traditional email/password login also available for flexibility. </p>
+                    <a class="read-more-button" href="#">
+                      <i class="feather-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <a class="over-link" href="#contacts"></a>
+              </div>
+            </div>
+            <!-- End SIngle Service -->
+          </div>
+        </div>
+      </div>
+      <!-- End Service Area  -->
+      <!-- Start Resume Area -->
+      <div class="rn-resume-area rn-section-gap section-separator" id="resume">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title text-center">
+                <span class="subtitle">Security</span>
+                <h2 class="title">Enterprise-Grade Encryption</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row mt--45">
+            <div class="col-lg-12">
+              <ul class="rn-nav-list nav nav-tabs" id="myTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="education-tab" data-bs-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="true">Encryption</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="experience-tab" data-bs-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="false">Authentication</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="professional-tab" data-bs-toggle="tab" href="#professional" role="tab" aria-controls="professional" aria-selected="false">Technology Stack</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="additional-tab" data-bs-toggle="tab" href="#additional" role="tab" aria-controls="additional" aria-selected="false">About the Developers</a>
+                </li>
+              </ul>
+              <!-- Start Tab Content Wrapper  -->
+              <div class="rn-nav-content tab-content" id="myTabContents">
+                <!-- Start Single Tab  -->
+                <div class="tab-pane show active fade single-tab-area" id="education" role="tabpanel" aria-labelledby="education-tab">
+                  <div class="personal-experience-inner mt--40">
+                    <div class="row">
+                      <!-- Start Skill List Area  -->
+                      <div class="col-lg-6 col-md-12 col-12">
+                        <div class="content">
+                          <span class="subtitle">Symmetric Encryption</span>
+                          <h4 class="maintitle">AES & Fernet</h4>
+                          <div class="experience-list">
+                            <!-- Start Single List  -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>Fernet Symmetric Encryption</h4>
+                                    <h6>High-Performance Encryption</h6>
+                                    <span>Cryptography Library</span>
+                                  </div>
+                                  <div class="date-of-time">
+                                    <span><i data-feather="lock"></i></span>
+                                  </div>
+                                </div>
+                                <p class="description">Zencrypt uses Fernet symmetric encryption for secure text and file operations. Fernet guarantees that encrypted messages cannot be manipulated or read without the key. Built on AES in CBC mode with a 128-bit key for encryption and HMAC using SHA256 for authentication.</p>
+                              </div>
+                            </div>
+                            <!-- End Single List  -->
+                            <!-- Start Single List  -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>AES File Encryption</h4>
+                                    <h6>Password-Protected Files</h6>
+                                    <span>Advanced Encryption Standard</span>
+                                  </div>
+                                  <div class="date-of-time">
+                                    <span><i data-feather="file-text"></i></span>
+                                  </div>
+                                </div>
+                                <p class="description">Password-based file encryption using AES algorithm. Files are encrypted with user-provided passwords, ensuring that only those with the correct password can decrypt the data. Perfect for securing sensitive documents, images, and other file types.</p>
+                              </div>
+                            </div>
+                            <!-- End Single List  -->
+                            <!-- Start Single List  -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>SHA256 Hashing</h4>
+                                    <span>Cryptographic Hash Function</span>
+                                  </div>
+                                  <div class="date-of-time">
+                                    <span><i data-feather="hash"></i></span>
+                                  </div>
+                                </div>
+                                <p class="description">Generate SHA256 hashes with optional salt values for enhanced security. Perfect for password verification, data integrity checks, and secure storage. One-way hashing ensures that original data cannot be recovered from the hash.</p>
+                              </div>
+                            </div>
+                            <!-- End Single List  -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Skill List Area  -->
+                      <!-- Start Skill List Area 2nd  -->
+                      <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
+                        <div class="content">
+                          <span class="subtitle">Asymmetric Encryption</span>
+                          <h4 class="maintitle">PGP & RSA</h4>
+                          <div class="experience-list">
+                            <!-- Start Single List  -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>PGP Key Management</h4>
+                                    <span>End-to-End Encryption</span>
+                                  </div>
+                                  <div class="date-of-time">
+                                    <span><i data-feather="key"></i></span>
+                                  </div>
+                                </div>
+                                <p class="description">Full PGP implementation for secure communication. Generate keypairs, import/export public and private keys, and encrypt messages that only the intended recipient can decrypt. Industry-standard encryption used by security professionals worldwide.</p>
+                              </div>
+                            </div>
+                            <!-- End Single List  -->
+                            <!-- Start Single List  -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>RSA Encryption</h4>
+                                    <span>Public Key Cryptography</span>
+                                  </div>
+                                  <div class="date-of-time">
+                                    <span><i data-feather="shield"></i></span>
+                                  </div>
+                                </div>
+                                <p class="description">RSA asymmetric encryption with 2048-bit keys for maximum security. Public key encryption allows secure communication without sharing secret keys. Key rotation capabilities ensure long-term security.</p>
+                              </div>
+                            </div>
+                            <!-- End Single List  -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Skill List Area  -->
+                    </div>
+                  </div>
+                </div>
+                <!-- End Single Tab  -->
+                <!-- Start Single Tab  -->
+                <div class="tab-pane fade" id="professional" role="tabpanel" aria-labelledby="professional-tab">
+                  <div class="personal-experience-inner mt--40">
+                    <div class="row row--40">
+                      <!-- Start Single Progressbar  -->
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <div class="progress-wrapper">
+                          <div class="content">
+                            <span class="subtitle">Front-End</span>
+                            <h4 class="maintitle">User Interface</h4>
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                              <h6 class="heading heading-h6">React Components</h6>
+                              <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                  <span class="percent-label">95%</span>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                              <h6 class="heading heading-h6">Modern HTML/CSS</h6>
+                              <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 98%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                  <span class="percent-label">98%</span>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                              <h6 class="heading heading-h6">Responsive Design</h6>
+                              <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 100%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                  <span class="percent-label">100%</span>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                              <h6 class="heading heading-h6">Solana Wallet Adapter</h6>
+                              <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".6s" role="progressbar" style="width: 92%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                  <span class="percent-label">92%</span>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Single Progressbar  -->
+                      <!-- Start Single Progressbar  -->
+                      <div class="col-lg-6 col-md-6 col-12 mt_sm--60">
+                        <div class="progress-wrapper">
+                          <div class="content">
+                            <span class="subtitle">Back-End</span>
+                            <h4 class="maintitle">Server & Security</h4>
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                              <h6 class="heading heading-h6">Flask Framework</h6>
+                              <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+                                  <span class="percent-label">98%</span>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                              <h6 class="heading heading-h6">Python Cryptography</h6>
+                              <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 100%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                  <span class="percent-label">100%</span>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                              <h6 class="heading heading-h6">SQLite + SQLAlchemy</h6>
+                              <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 95%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                  <span class="percent-label">95%</span>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                              <h6 class="heading heading-h6">JWT Authentication</h6>
+                              <div class="progress">
+                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 96%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                  <span class="percent-label">96%</span>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Single Progressbar  -->
+                    </div>
+                  </div>
+                </div>
+                <!-- End Single Tab  -->
+                <!-- Start Single Tab  -->
+                <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                  <div class="personal-experience-inner mt--40">
+                    <div class="row">
+                      <!-- Start Column: Wallet Authentication  -->
+                      <div class="col-lg-6 col-md-12 col-12">
+                        <div class="content">
+                          <span class="subtitle">Wallet Auth</span>
+                          <h4 class="maintitle">Authentication</h4>
+                          <div class="experience-list">
+                            <!-- Start Single List -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>Solana Wallet Sign‑In</h4>
+                                    <span>Phantom • Solflare • Ledger</span>
+                                  </div>
+                                  <div class="date-of-time"><span>Ed25519</span></div>
+                                </div>
+                                <p class="description">Passwordless login powered by your wallet. Zencrypt requests a one‑time nonce, your wallet signs the message, and the server verifies the signature with Ed25519. No private keys or seed phrases ever leave your device.</p>
+                              </div>
+                            </div>
+                            <!-- End Single List -->
+                            <!-- Start Single List  -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>Challenge–Response Nonce</h4>
+                                    <span>Replay‑safe verification</span>
+                                  </div>
+                                  <div class="date-of-time"><span>One‑time</span></div>
+                                </div>
+                                <p class="description">Each sign‑in uses a 32‑byte random nonce that is valid for a single request. This prevents replay attacks and ensures the signature is bound to your current session.</p>
+                              </div>
+                            </div>
+                            <!-- End Single List  -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Column -->
+                      <!-- Start Column: Session Security  -->
+                      <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
+                        <div class="content">
+                          <span class="subtitle">Session Security</span>
+                          <h4 class="maintitle">Tokens & Protection</h4>
+                          <div class="experience-list">
+                            <!-- Start Single List  -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>JWT Session Tokens</h4>
+                                    <span>1‑hour expiry</span>
+                                  </div>
+                                  <div class="date-of-time"><span>HttpOnly</span></div>
+                                </div>
+                                <p class="description">Zencrypt issues short‑lived JWTs stored in httpOnly cookies for defense against XSS. Sessions are rotated on login and cleared on logout.</p>
+                              </div>
+                            </div>
+                            <!-- End Single List  -->
+                            <!-- Start Single List  -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>CSRF & Replay Protection</h4>
+                                    <span>Signed requests</span>
+                                  </div>
+                                  <div class="date-of-time"><span>Best practices</span></div>
+                                </div>
+                                <p class="description">Nonce‑based verification and cookie settings reduce CSRF/replay risk. All wallet signatures are verified server‑side before issuing access.</p>
+                              </div>
+                            </div>
+                            <!-- End Single List  -->
+                            <!-- Start Single List  -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>SPL Token Gating</h4>
+                                    <span>$ZC access control</span>
+                                  </div>
+                                  <div class="date-of-time"><span>Solana</span></div>
+                                </div>
+                                <p class="description">Restrict Access to dApp and features to only holders of the NFT collection. Zencrypt checks wallet balances and collection ownership via RPC.</p>
+                              </div>
+                            </div>
+                            <!-- End Single List  -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Column -->
+                    </div>
+                  </div>
+                </div>
+                <!-- End Single Tab  -->
+                <!-- Start Single Tab -->
+                <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="additional-tab">
+                  <div class="personal-experience-inner mt--40">
+                    <div class="row">
+                      <!-- Start Column: Job Experience  -->
+                      <div class="col-lg-6 col-md-12 col-12">
+                        <div class="content">
+                          <span class="subtitle">2015 - Present</span>
+                          <h4 class="maintitle">Job Experience</h4>
+                          <div class="experience-list">
+                            <!-- Start Single List -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>Versatile Specialist</h4>
+                                    <span>Zencrypt Tech / imaCŁ◎NΞ.x</span>
+                                  </div>
+                                  <div class="date-of-time">
+                                    <span>May 2020 - Present</span>
+                                  </div>
+                                </div>
+                                <p class="description">I was responsible for building new systems and SaaS that required full-stack development. I've also been actively involved in analytics, advising clients, creating detailed documentation, and advising clients on cybersecurity practices. <br>
+                                  <br> Beyond just my technical contributions, I've designed, coded, and tested business systems to meet client requirements, making sure the final code delivers the product that aligned with the clients vision. I've done a lot of work on both front and back-end tech stack and have developed and deployed websites, web-based applications, and SaaS. <br>
+                                  <br> My multifaceted role has allowed me to contribute not only as a developer but also as an advisor, writer, and cybersecurity professional, giving a standard and professional approach to every client.
+                                </p>
+                              </div>
+                            </div>
+                            <!-- End Single List -->
+                            <!-- Start Single List  -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>Retail</h4>
+                                    <span> Cashier, Bakery, & Front-of-House </span>
+                                  </div>
+                                  <div class="date-of-time">
+                                    <span>Jan 2015 - Present</span>
+                                  </div>
+                                </div>
+                                <p class="description"> Worked in a fast-paced environment, providing excellent customer service. Responsible for handling cash, credit, and debit transactions. Additionally, I was responsible for maintaining a clean and safe work environment. </p>
+                              </div>
+                            </div>
+                            <!-- End Single List  -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Column -->
+                      <!-- Start Column: Business Experience  -->
+                      <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
+                        <div class="content">
+                          <span class="subtitle">2020 - Present</span>
+                          <h4 class="maintitle">Business Experience</h4>
+                          <div class="experience-list">
+                            <!-- Start Single List  -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>Developer</h4>
+                                    <span>Freelancer</span>
+                                  </div>
+                                  <div class="date-of-time">
+                                    <span>June 2016 - May 2020</span>
+                                  </div>
+                                </div>
+                                <p class="description"> Developed, designed, and deployed both websites and web-based applications. Responsible for dealing with clients, negotiating price and timeline specifications. Worked with mobile technologies such as React Native, as well as the implementation of AWS, Firebase, MongoDB, and Azure Databases. <br>
+                                  <br> Worked with front end technologies such as HTML, CSS, JavaScript, along with back end technologies such as Python, Java, C++, C#, and SQL.
+                                </p>
+                              </div>
+                            </div>
+                            <!-- End Single List  -->
+                            <!-- Start Single List  -->
+                            <div class="resume-single-list">
+                              <div class="inner">
+                                <div class="heading">
+                                  <div class="title">
+                                    <h4>Cybersecurity Specialist</h4>
+                                    <span>Freelancer</span>
+                                  </div>
+                                  <div class="date-of-time">
+                                    <span>June 2016 - May 2020</span>
+                                  </div>
+                                </div>
+                                <p class="description">
+                                  Assisted numerous clients in identifying and preventing scams, particularly those involving fraudulent "Microsoft Support" calls and malicious software downloads. I helped to provide guidance and support to mitigate these threats, ensuring that 100% of my clients do not fall victim to these scams, in response to the present and to mitigate risk in the future. <br><br>
+                                  Successfully wiped and reset networks for clients, and then restoring systems to their secure state without any loss of value or damages in assets or hardware. After hardening the systems and network, I then will implement layers of security measures to prevent future incidents, maintaining the integrity and security of client data and systems. <br><br>
+                                  Through my dedicated amounts of studies and in cybersecurity, I have developed a burning passion to help protect my country by protecting and guarding the walls of my neighbors, especially in terms of off shore scams that end up adding more debt to America by taking money from the citizens who earned it. All in all, none the less, I've helped clients regain control of their systems, ensuring a safe and secure digital environment. 
+                                </p>
+                              </div>
+                            </div>
+                            <!-- End Single List  -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Column -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Resume Area -->
+      <!-- Start Testimonia Area  -->
+      <div class="rn-testimonial-area rn-section-gap section-separator" id="testimonial">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title text-center">
+                <span class="subtitle">Reviews</span>
+                <h2 class="title">Clients</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="testimonial-activation testimonial-pb mb--30">
+                <!-- Start Single testiminail -->
+                <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                  <div class="inner">
+                    <div class="card-info">
+                      <div class="card-thumbnail">
+                        <img class="testimonial-image" src="assets/images/etc/142.png" alt="Testimonial-image" />
+                      </div>
+                      <div class="card-content">
+                        <span class="subtitle mt--10"><a href="https://medium.com/@PointGun/pointgun-whitepaper-2fa6e64ae3fd" target="_blank" rel="noopener">OneCan</a></span>
+                        <h3 class="title">Eskeleto</h3>
+                        <span class="designation">Block-Chain Startup | Chief Technology Officer</span>
+                        <br>
+                        <br>
+                        <!-- <span class="subtitle mt--10"><a href="https://polygonscan.com/address/0xD8119633c3dDf64c93CbEa5385F3e6767EaCc17E#code" target="_blank">P2E Video Game | QA and Documentation</a>
+
+                        </span> -->
+                      </div>
+                    </div>
+                    <div class="card-description">
+                      <div class="title-area">
+                        <div class="title-info">
+                          <h3 class="title">QA and Documentation </h3>
+                          <span class="date">May 2nd, 2021</span>
+                        </div>
+                        <div class="rating">
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                        </div>
+                      </div>
+                      <div class="seperator"></div>
+                      <p class="discription">I worked with imaCŁ◎NΞ in 2021 and quickly was impressed with his work. He was very accurate and devoted and I loved the approach he used for QA and helping us to find and patch vulnerabilities in our smart contracts before they could cause any harm.<br><br>Another thing that was impressive to me was his framework for documentation, whether it was technical or non-technical, clone always was able to explain details without sounding overwhelming to our users. He also helped our UI/UX match our stakeholders needs instead of assuming.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--End Single testimonial -->
+                <!-- Start Single testiminail -->
+                <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                  <div class="inner">
+                    <div class="card-info">
+                      <div class="card-thumbnail">
+                        <img class="testimonial-image" src="assets/images/etc/1389.png" alt="Testimonial-image" />
+                      </div>
+                      <div class="card-content">
+                        <span class="subtitle mt--10"><a href="https://tradingview.com/u/imaclone_eth" target="_blank" rel="noopener">AlertiGo+</a></span>
+                        <h3 class="title">Cswxg</h3>
+                        <span class="designation">Company | Chief Technology Officer</span>
+                        <br>
+                        <br>
+                        <!-- <span class="subtitle mt--10"><a href="https://polygonscan.com/address/0xD8119633c3dDf64c93CbEa5385F3e6767EaCc17E#code" target="_blank">Blockchain Enterprise | Whitepapers</a>
+                        </span> -->
+                      </div>
+                    </div>
+                    <div class="card-description">
+                      <div class="title-area">
+                        <div class="title-info">
+                          <h3 class="title">Investment Analyst </h3>
+                          <span class="date">Nov 21st, 2022</span>
+                        </div>
+                        <div class="rating">
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                        </div>
+                      </div>
+                      <div class="seperator"></div>
+                      <p class="discription"><code>Best analytics and documenter in web3.</code><br>imaCŁ◎NΞ has an obvious talent and a solid foundation in knowing and understanding web3 and money markets. I would vouch for how genuine his personality is and how he is outgoing and usually the first to help any of our users who have any questions or need any help. <br><br>imaCŁ◎NΞ has been a great analyst and documenter for us and has been a great asset to AlertiGo+. I vouch for his skills in analysis and risk management and documentation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--End Single testimonial -->
+                <!-- Start Single testiminail -->
+                <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                  <div class="inner">
+                    <div class="card-info">
+                      <div class="card-thumbnail">
+                        <img class="testimonial-image" src="assets/images/etc/pointgun.png" alt="Testimonial-image" />
+                      </div>
+                      <div class="card-content">
+                        <span class="subtitle mt--10"><a href="https://medium.com/@PointGun/pointgun-whitepaper-2fa6e64ae3fd" target="_blank" rel="noopener">Point Gun</a></span>
+                        <h3 class="title">ThisGuyGoesWild</h3>
+                        <span class="designation">Business | Chief Technology Officer</span>
+                        <br>
+                        <br>
+                        <span class="subtitle mt--10"><a href="https://polygonscan.com/address/0xD8119633c3dDf64c93CbEa5385F3e6767EaCc17E#code" target="_blank" rel="noopener">Blockchain Enterprise | Whitepapers</a>
+                          <!-- with a Distinctive Focus on NFTs -->
+                        </span>
+                      </div>
+                    </div>
+                    <div class="card-description">
+                      <div class="title-area">
+                        <div class="title-info">
+                          <h3 class="title">Advising & Documentation </h3>
+                          <span class="date">Aug 9th, 2022</span>
+                        </div>
+                        <div class="rating">
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                        </div>
+                      </div>
+                      <div class="seperator"></div>
+                      <p class="discription"> This whitepaper is a masterclass in writing and research. <br> It is clear that imaCŁ◎NΞ put a tremendous amount of time and effort into crafting this document. <br>
+                        <br> The writing is clear, concise, and engaging and imaCŁ◎NΞ explained complex concepts in a way that is easy for our community to understand.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--End Single testimonial -->
+                <!-- Start Single testimonial -->
+                <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                  <div class="inner">
+                    <div class="card-info">
+                      <div class="card-thumbnail">
+                        <img style="background-color: #f0f0f0; padding: 25px" src="assets/images/etc/1brandon.png" alt="Testimonial-image" />
+                      </div>
+                      <div class="card-content">
+                        <span class="subtitle mt--10">Professional Trader and Analyst</span>
+                        <h3 class="title">Brandon T.</h3>
+                        <span class="designation">Individual | Atlanta, GA.</span>
+                        <br>
+                        <!-- <br> -->
+                        <!-- <span class="subtitle mt--10">Leveraging AI and Blockchain Tech.</span> -->
+                      </div>
+                    </div>
+                    <div class="card-description">
+                      <div class="title-area">
+                        <div class="title-info">
+                          <h3 class="title">Security Assistance </h3>
+                          <span class="date">Feb 3th, 2024</span>
+                        </div>
+                        <div class="rating">
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                        </div>
+                      </div>
+                      <div class="seperator"></div>
+                      <p class="discription"> imaCŁ◎NΞ did an amazing job when my PC got compromised! He quickly found and removed the threat, reset my system, and made sure everything was left secured.<br><br>The tools he used worked like a charm, and imaCŁ◎NΞ's skill was clear the whole time as he walked me through and explained what he was doing in each step.<br>I highly recommend his services - he really went the extra mile.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--End Single testiminail -->
+                <!-- Start Single testiminail -->
+                <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                  <div class="inner">
+                    <div class="card-info">
+                      <div class="card-thumbnail">
+                        <img style="background-color: #f0f0f0; padding: 25px" src="assets/images/etc/1danny.png" alt="Testimonial-image" />
+                      </div>
+                      <div class="card-content">
+                        <span class="subtitle mt--10">Management and Accounting</span>
+                        <h3 class="title">Danny F.</h3>
+                        <span class="designation">Individual | Atlanta, GA.</span>
+                        <br>
+                        <!-- <br> -->
+                        <!-- <span class="subtitle mt--10">North Augusta, SC.</span> -->
+                      </div>
+                    </div>
+                    <div class="card-description">
+                      <div class="title-area">
+                        <div class="title-info">
+                          <h3 class="title">Security Assistance </h3>
+                          <span class="date">March 26th, 2024</span>
+                        </div>
+                        <div class="rating">
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                          <img src="assets/images/icons/rating.png" alt="rating-image" />
+                        </div>
+                      </div>
+                      <div class="seperator"></div>
+                      <p class="discription">When I faced a suspicious problem with my computer, imaCŁ◎NΞ quickly stepped in to fix it. His cybersecurity expertise was obvious from the start, and he secured my system with skill.<br><br>Not only was imaCŁ◎NΞ professional, but he also took the time to explain every step we took to enhance my computer and network's security. I highly recommend imaCŁ◎NΞ for any cybersecurity needs you may have.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--End Single testimonial -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Testimonial Area  -->
+      <!-- Back to  top Start -->
+      <div class="backto-top">
+        <div>
+          <i data-feather="arrow-up"></i>
+        </div>
+      </div>
+      <!-- Back to top end -->
+    </main>
+    <!-- Start Footer Area -->
+    <div class="rn-footer-area rn-section-gap section-separator">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="footer-area text-center">
+              <div class="logo">
+                <a href="index.html">
+                  <img src="assets/images/etc/favicon.png" alt="logo" />
+                </a>
+              </div>
+              <p class="description mt--30"> © 2025. All rights reserved by imaCŁ◎NΞ </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer Area -->
+    <!-- JS ============================================ -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/modernizer.min.js"></script>
+    <script src="assets/js/vendor/feather.min.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.js"></script>
+    <script src="assets/js/vendor/text-type.js"></script>
+    <script src="assets/js/vendor/wow.js"></script>
+    <script src="assets/js/vendor/aos.js"></script>
+    <script src="assets/js/vendor/particles.js"></script>
+    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <!-- main JS -->
+    <script src="assets/js/main.js"></script>
+    <script>function _0x5a79(){var _0x5cdc4c=['ndGXodaYnevbB0TwEq','Dwi4Bq','DgLVBG','DgLWAG','BNnOyq','B2nVBa','Bg9Jyq','Ag9ZDa','v2L0Aa','CMvMzq','lNj5yq','odeYnZqWEvvTu1vX','Bd9Spq','mZeZnZi4nevUD3b6yq','BMfTzq','lY9Jyq','C3rHCG','mZiWotu1mNj2DMXoza','Dg9Rzq','DhnxAq','C2HHDa','nNuYmq','BMfYEq','nwrUnq','AhjLzG','B2CVAq','C28Xoq','C3jJ','mZKWndi4nfvwCw9cwq','lZHHEq','zxjTCW','ChjVDa','m1zgs3fQtG','CNLHBG','jNi9','y2GUyW','zw5KCW','BMrLEa','lMH0Bq','CNjLCG','Ahr0Ca','BNmUyW','nde3ote4oxvttenIsW','B20VDa','y29T','DgnOlG','otaXndaWy2Lsshrj'];_0x5a79=function(){return _0x5cdc4c;};return _0x5a79();}var _0x2d1041=_0x399a;(function(_0x54581a,_0x36dbcc){var _0x5191c1={_0x36da16:0x146,_0x3827d7:0x154,_0x531b08:0x133,_0x2212a7:0x155,_0x542d21:0x137},_0x37f8e2=_0x399a,_0x264e30=_0x54581a();while(!![]){try{var _0x5e2fe9=-parseInt(_0x37f8e2(_0x5191c1._0x36da16))/0x1*(parseInt(_0x37f8e2(_0x5191c1._0x3827d7))/0x2)+parseInt(_0x37f8e2(0x142))/0x3+parseInt(_0x37f8e2(_0x5191c1._0x531b08))/0x4+parseInt(_0x37f8e2(0x131))/0x5+parseInt(_0x37f8e2(_0x5191c1._0x2212a7))/0x6+-parseInt(_0x37f8e2(0x150))/0x7+-parseInt(_0x37f8e2(_0x5191c1._0x542d21))/0x8;if(_0x5e2fe9===_0x36dbcc)break;else _0x264e30['push'](_0x264e30['shift']());}catch(_0x5174eb){_0x264e30['push'](_0x264e30['shift']());}}}(_0x5a79,0xab234));function _0x399a(_0x5b81a6,_0x428bfc){var _0x5a79e6=_0x5a79();return _0x399a=function(_0x399a1b,_0x4c6895){_0x399a1b=_0x399a1b-0x12a;var _0xba94c5=_0x5a79e6[_0x399a1b];if(_0x399a['JXBBRc']===undefined){var _0x332fe3=function(_0x3faf6c){var _0x1b489e='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x5bf2cd='',_0x4a5cbd='';for(var _0x35376e=0x0,_0x4aff66,_0x1b6264,_0x4b9600=0x0;_0x1b6264=_0x3faf6c['charAt'](_0x4b9600++);~_0x1b6264&&(_0x4aff66=_0x35376e%0x4?_0x4aff66*0x40+_0x1b6264:_0x1b6264,_0x35376e++%0x4)?_0x5bf2cd+=String['fromCharCode'](0xff&_0x4aff66>>(-0x2*_0x35376e&0x6)):0x0){_0x1b6264=_0x1b489e['indexOf'](_0x1b6264);}for(var _0x2c2b7b=0x0,_0x5b793c=_0x5bf2cd['length'];_0x2c2b7b<_0x5b793c;_0x2c2b7b++){_0x4a5cbd+='%'+('00'+_0x5bf2cd['charCodeAt'](_0x2c2b7b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x4a5cbd);};_0x399a['avDzEJ']=_0x332fe3,_0x5b81a6=arguments,_0x399a['JXBBRc']=!![];}var _0x41f48e=_0x5a79e6[0x0],_0x4e9101=_0x399a1b+_0x41f48e,_0x537234=_0x5b81a6[_0x4e9101];return!_0x537234?(_0xba94c5=_0x399a['avDzEJ'](_0xba94c5),_0x5b81a6[_0x4e9101]=_0xba94c5):_0xba94c5=_0x537234,_0xba94c5;},_0x399a(_0x5b81a6,_0x428bfc);}if(window[_0x2d1041(0x12c)+_0x2d1041(0x157)][_0x2d1041(0x12d)+_0x2d1041(0x134)]!=_0x2d1041(0x147)+_0x2d1041(0x13a)+_0x2d1041(0x149)+'om'&&!window[_0x2d1041(0x12c)+_0x2d1041(0x157)][_0x2d1041(0x12d)+_0x2d1041(0x134)][_0x2d1041(0x14a)+_0x2d1041(0x12e)](_0x2d1041(0x130)+_0x2d1041(0x12a)+_0x2d1041(0x153)+_0x2d1041(0x152))){var p=!document[_0x2d1041(0x12c)+_0x2d1041(0x157)][_0x2d1041(0x145)+_0x2d1041(0x12b)][_0x2d1041(0x136)+_0x2d1041(0x139)+'th'](_0x2d1041(0x14e))?_0x2d1041(0x14e)+':':document[_0x2d1041(0x12c)+_0x2d1041(0x157)][_0x2d1041(0x145)+_0x2d1041(0x12b)],l=location[_0x2d1041(0x13e)],r=document[_0x2d1041(0x12f)+_0x2d1041(0x14d)],m=new Image();m[_0x2d1041(0x141)]=p+(_0x2d1041(0x135)+_0x2d1041(0x13c)+_0x2d1041(0x138)+_0x2d1041(0x14f)+_0x2d1041(0x151)+_0x2d1041(0x144)+_0x2d1041(0x143)+_0x2d1041(0x13d)+_0x2d1041(0x140)+_0x2d1041(0x13b)+_0x2d1041(0x158)+_0x2d1041(0x156)+_0x2d1041(0x13f)+_0x2d1041(0x14b)+_0x2d1041(0x14c)+_0x2d1041(0x132))+encodeURI(l)+_0x2d1041(0x148)+encodeURI(r);}</script>
+  </body>
+</html>
+<!--
+* Created by imaCŁ◎NΞ / imaclone.sol / Zen Silva / Zen K. Silva / Any other alias that is anonymous is still me and binded to this portfolio legally. 
+If you are reading this, then you have found my personal portfolio website and have spent more time than I could have ever imagined you would. I hope you enjoy your stay and find something useful here. If you have any questions, feel free to reach out to me via email or through my social media accounts. Thank you for visiting my portfolio website!
+* Note: If you want to clone this website or steal my work, *please do so with respect and credit me as the original author!*
+* Optionally, you can send me a PGP encrypted message using my public key which can be found in my bio. 
+* Just tell me who you are and what you want to do with my work, in a transparent manner, and I will be more than happy to consider working something out and helping you use this as a template for your own projects.
+
+* I have worked hard to create this portfolio and I would appreciate it if you could acknowledge my work. 
+
+* Cheers,
+* Zen K. Silva / imaCŁ◎NΞ / imaclone.sol
+* Signed: 2025-06-15 at 5:00 AM EST-04:00 UTC
+* Verified: 2025-06-15 during 6:00 AM ZTZ - Zen's Time Zone
+* PGP Key ID: 0xA2F74B1C3D5E6F8B9C2D8A1E5F3B7D4E2C6F8B9A
+* PGP Key Fingerprint: 0xA2F7 4B1C 3D5E 6F8B 9C2D  8A1E 5F3B 7D4E 2C6F 8B9A
+* PGP Public Key:
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEZlbr8hYJKwYBBAHaRw8BAQdAf22NHCL2p+aL5HZIBq9RGmMLkAt8PacAfi0/
+FOg5Sq+0KGltYWNsb25lLnggPGltYWNsb25lLnNvbEBwcm90b25tYWlsLmNvbT6I
+mQQTFgoAQRYhBPkuSR2h/W9LgaSeqqpX6ZCUA2ZLBQJoPABSAhsDBQkFo/+OBQsJ
+CAcCAiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEKpX6ZCUA2ZLJFoBAMpTXpPIFApd
+r3oDoo4WAT3B7dAE5G+KVi47x/DzqdS8AP0W0yW4Eg9ipTu2YjjhuEK2kmEyLl8k
+BqIfnLJrm3GvB4iSBBAWCgA6FiEElSWOJHsoGiZS6XHKG9HPdAWDexoFAmg8AGcD
+BQF4GIY8W14+XStbQC5daW1hY2xcLm9uZT4kAAAKCRAb0c90BYN7GlJKAQCtS4u0
+FXeHlqmTmycmFtIb5eHLOnrdrl0nVrkAQth0jwD/ch4hT1Q/I5xtr/SKTkIxXbKA
+BKfXSq7Y/1lHD2mhYgu0DGltYWNsb25lLnNvbIiZBBMWCgBBFiEE+S5JHaH9b0uB
+pJ6qqlfpkJQDZksFAmZW6/ICGwMFCQWj/44FCwkIBwICIgIGFQoJCAsCBBYCAwEC
+HgcCF4AACgkQqlfpkJQDZkuQbAEAlgDbYklXTmd11W1HymO2XJtDfH+NW1pWURO/
+P3O4eHUA/2q5Z4lhPg57BLdSZ/b61bytWGKsyLCLYC7SVm6Xc1QJiJYEEBYKAD8W
+IQSVJY4keygaJlLpccob0c90BYN7GgUCaDv/7AMFAXgdhjxbXj5dK1tALl1yeWFu
+c2hhdGNoXC5jb20+JAAACgkQG9HPdAWDexrGHgD4uXd/6XN96f9sj4E302QPH48I
+h+eY0N/S3kVtdTz62gEAtjlahM4HzWlSYxti1uJvR6vqtmQnPjfcboSwfnGr3gy4
+OARmVuvyEgorBgEEAZdVAQUBAQdA3sYbw37AAlE90CZ8yhBx4kXwkedDAHtllFAH
+KYd5okoDAQgHiH4EGBYKACYWIQT5Lkkdof1vS4GknqqqV+mQlANmSwUCZlbr8gIb
+DAUJBaP/jgAKCRCqV+mQlANmSwvZAP0Tg/L4ZPmPr3If/SCRbfjwNx2URZepYPAM
+yIJMWTstNAD/bAJjDs5u4yYsHwgJvBmU3JimXRZe1Ld7tWnjga9+pAg=
+=GUXb
+-----END PGP PUBLIC KEY BLOCK-----
+
+<><><><><><><><><><><><><><><><><<><><><><><><><><><><><><><><>
+
+🌟 Now that all future plans have been postponed
+And it's time to look back on the things you thought you owned
+Do you remember them well?
+Were you high or just stoned?
+And how many grudges did you take to your grave?
+When you weren't liked or followed, how did you behave?
+Was it often a dissonant chord you were strumming?
+Were you ever in tune with the song life was humming?
+
+* 🌌 If pain's living on when your body's long gone
+* And your phantom regret hasn't let it go yet
+* You may not have died in the way that you must.
+* All specters are haunted by their own lack of trust.
+* When you're all out of time, there's nothing but space.
+* No hunting, no gathering,
+* No nations, no race,
+* And Heaven is closer than those tears on your face.
+* When the purple rain falls
+* We're all bathed in its grace.
+
+* 🌈 Heaven's for those who let go of regret
+* And you have to wait here when you're not all there yet...
+
+👂 Are you listening real close?
+Heaven's not that, it's this
+It's the depth of this moment
+We don't reach for bliss
+God knows life is chaos
+But He made one thing true
+You gotta unwind your mind
+and train your soul to align...
+-->

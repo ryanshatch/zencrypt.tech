@@ -1,0 +1,27 @@
+/* MINT STYLES - created for inline-style fixes */
+.rn-btn.mint-btn {
+  margin-left: 10px;
+  background: linear-gradient(90deg, #14F195 0%, #9945FF 100%);
+  border: none;
+  /* preserve existing rn-btn spacing/typography */
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Larger mint button variant used on the mint section */
+.rn-btn.mint-btn.mint-large {
+  padding: 15px 35px;
+  font-size: 16px;
+  margin: 0 auto;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+}
+
+/* spacing for the arrow icon inside mint buttons */
+.rn-btn.mint-btn.mint-large i,
+.rn-btn.mint-btn.mint-large [data-feather] {
+  margin-left: 8px;
+}
